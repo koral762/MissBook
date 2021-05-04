@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background: linear-gradient(90deg, #fbfcfb 0%, #f5dd75da 100%);
+    font-weight: bold;
+
+}
+
+.book-review{
+    text-align: left;
+    max-width: 100%;
+    padding: 15px;
+    background-color:rgba(211, 17, 17,0.4);
+}
+
+.book-review .review{
+    font-size: 30px;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+}
+.app-header ul {
+    display: flex;
+    margin-left: 20px;
+}
+.app-header li {
+    margin-left: 10px;
+}
+.app-header .active {
+    font-weight: bold;
+    color: red;
+}
+.app-header .active-nav {
+    font-weight: bold;
+    color: purple;
+}
+.clean-list {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.Home-page {
+    text-align: center; 
+}
+
+.About-page { 
+    text-align: center;
+}
+
+
+
+.gallery{
+ text-decoration: none;
+ color:#4833a5;
+ font-size:2em;
+}
+
+.gallery:hover{
+ text-decoration: none;
+ color:#f0ec26;
+ font-size:2em;
+}
+
+
+
+
+
+
+
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.book-details {
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(133deg, #f1d847 0%, #a533a5 100%);
+    padding: 20px;
+    border-radius: 15px;
+    top: 30px;
+    left: 18px;
+    min-width: 750px;
+    min-height: 550px;
+}
+
+.book-preview {
+    outline: 3px solid #1285c7e7;
+    outline-offset: 2px;
+    max-width: 200px;
+    min-height: 400px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    outline-style:dashed;
+}
+
+button {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rgb(152, 15, 206);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.on-sale {
+    color: rgb(211, 17, 17);
+    font-size: 30px;
+}
+
+.book-filter{
+
+    display: inline-block;
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px
+    
+}
+
+#minPrice{
+    width: 80px;
+}
+#maxPrice{
+    width: 80px;
+}
+
+input {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px 20px;
+    font-weight: bold;
+
+}
+
+.exit-btn{
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+img{
+    max-width: 200px;
+}
+
+.about-img{
+    
+    max-width: 400px;
+    border: 2px solid rgb(247, 240, 177);
+    border-radius: 10%;
+}
+
+.home-img{
+    
+    border-radius: 8%;
+    border: 2px solid rgb(236, 220, 75);
+    max-width: 300px;
+}
